@@ -38,7 +38,7 @@ abstract class Helper
     /**
      * @param $originalPath
      *
-     * @return string
+     * @return mixed
      * @throws Exceptions\PermissionDenied
      */
     public function getCachePath($originalData)
