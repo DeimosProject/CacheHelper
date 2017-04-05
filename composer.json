@@ -1,4 +1,23 @@
 {
+  "name": "deimos/cache-helper",
+  "description": "Deimos Cache Helper.",
+  "keywords": [
+    "deimos",
+    "cache",
+    "helper"
+  ],
+  "homepage": "https://github.com/DeimosProject/ConfigHelper",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "rez1dent3",
+      "email": "info@babichev.net"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "5.7.5"
+  },
   "autoload": {
     "psr-4": {
       "Deimos\\": "src/"
