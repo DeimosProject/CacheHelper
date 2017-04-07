@@ -5,6 +5,8 @@ namespace Deimos\CacheHelper;
 class SliceHelper extends Helper
 {
 
+    protected $extension = 'deimos-slice';
+
     /**
      * @inheritdoc
      */

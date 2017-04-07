@@ -5,6 +5,8 @@ namespace Deimos\CacheHelper;
 abstract class Helper
 {
 
+    protected $extension;
+
     /**
      * @var string
      */
@@ -43,7 +45,7 @@ abstract class Helper
      */
     public function getCachePath($originalData)
     {
-        $basename    = crc32($originalData) . '.deimos';
+        $basename    = crc32($originalData) . '.' . ($this->extension ?? 'deimos');
         $hash        = $this->hash($originalData);
         $directories = str_split($hash, 2);
 

@@ -5,6 +5,8 @@ namespace Deimos\CacheHelper;
 class FileHelper extends Helper
 {
 
+    protected $extension = 'deimos-file';
+
     /**
      * @inheritdoc
      */
